@@ -1,4 +1,7 @@
-<?php function sayfayaBaglan($_URL){ 
+
+<?php 
+################  CRUL fonksiyonu ################
+function sayfayaBaglan($_URL){ 
 	$useragent = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; tr-TR; rv:1.8.1.13) Gecko/20080311 Firefox/2.0.0.13';
 	$referer = 'http://www.google.com/'; 
 	$ch = curl_init(); 
