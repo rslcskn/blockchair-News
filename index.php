@@ -15,7 +15,7 @@ function sayfayaBaglan($_URL){
 		curl_close($ch); 
 		return $rmx; 
 } 
-
+################ ARA Fonksiyonu ################
 function ara($bas, $son, $yazi)
 {
     @preg_match_all('/' . preg_quote($bas, '/') .
