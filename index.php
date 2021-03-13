@@ -23,6 +23,7 @@ function ara($bas, $son, $yazi)
     return @$m[1];
 }
 
+################ Kaynağa bağlantı ve veri çekme işlemleri ################
 $siteAdresi = sayfayaBaglan("https://blockchair.com/tr/news");
 
 $baslik = ara('class="news__block__item_title">', "</a>", $siteAdresi);
