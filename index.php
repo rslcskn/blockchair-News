@@ -29,6 +29,8 @@ $siteAdresi = sayfayaBaglan("https://blockchair.com/tr/news");
 $baslik = ara('class="news__block__item_title">', "</a>", $siteAdresi);
 $newslink = ara('</a> <a href="', '" target="_blank"', $siteAdresi);
 echo "Haber Adı: ".$baslik[0]."<br>";
-echo "Haber Adı: ".$newslink[0]."<br>";
+echo "Haber Link: ".$newslink[0]."<br>";
+
+################ ENDOFF ################
 
 ?>
